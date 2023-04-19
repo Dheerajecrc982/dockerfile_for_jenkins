@@ -1,0 +1,25 @@
+Started by user [8mha:////4OeA6d3C50Qqi4/5HMryFqWAYwrXOueYJ3vll2e9i6tBAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL9lIzU1KLELAAk5LqKwgAAAA==[0mDheeraj Sharma
+[Mon Apr 17 03:56:41 IST 2023] Starting branch indexing...
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > /usr/bin/git ls-remote https://github.com/Dheerajecrc982/flaskapp.git # timeout=10
+Creating git repository in /var/lib/jenkins/caches/git-08038ec414eb739010727402da1e57d6
+ > /usr/bin/git init /var/lib/jenkins/caches/git-08038ec414eb739010727402da1e57d6 # timeout=10
+Setting origin to https://github.com/Dheerajecrc982/flaskapp.git
+ > /usr/bin/git config remote.origin.url https://github.com/Dheerajecrc982/flaskapp.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > /usr/bin/git config --get remote.origin.url # timeout=10
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > /usr/bin/git ls-remote -h https://github.com/Dheerajecrc982/flaskapp.git # timeout=10
+Fetching upstream changes from origin
+ > /usr/bin/git config --get remote.origin.url # timeout=10
+ > /usr/bin/git fetch --tags --progress --prune origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch main
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+Processed 1 branches
+[Mon Apr 17 03:56:44 IST 2023] Finished branch indexing. Indexing took 3.6 sec
+Finished: SUCCESS

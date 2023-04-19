@@ -1,0 +1,15 @@
+Started by user [8mha:////4BP8YmfTCNzy/X6DhpyLLqPKh8aa2aqc3DPqDf8Fct0qAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL9lIzU1KLELAAk5LqKwgAAAA==[0mDheeraj Sharma
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/remote_task
+[SSH] script:
+
+df-h > /tmp/remote-file
+
+[SSH] executing...
+bash: line 1: df-h: command not found
+
+[SSH] completed
+[SSH] exit-status: 127
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,147 @@
+Started by user [8mha:////4OeA6d3C50Qqi4/5HMryFqWAYwrXOueYJ3vll2e9i6tBAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL9lIzU1KLELAAk5LqKwgAAAA==[0mDheeraj Sharma
+[8mha:////4C7xIjS10c0KytQiGAfOrRaOXnfZ4Q/322AZ+V/zNC39AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IOcjShi2WmKEUupEyeH3fNwDFn8C8o1P3t5PSUCI/mHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4K78qnR2JbmEfWP1rfHts7UhxLhshxfStAe7eI7m0rvUAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYZ/dzEvMT0VP3k/NyC0pLUIn2NpNLMnBLdzDxNfQB9z6/O0QAAAA==[0mJenkins in /var/lib/jenkins/workspace/build_docker_image
+[8mha:////4NW/usSkNt5IYMliSIop9+Hctn+SP7hVAvpJcfdW43dEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MvNZEWnf/WosCsdy0RsR4Xsl1aYjO6HiwbpnO8571feAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Ein+rdh1P7Iw6Xqtyh6yo9W13msaA/gQWqW/UdS0tqPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (gitclone)
+[8mha:////4NBNqMk8Z8r6+TOOdSxdkap93ZVyrjh9QTvPnNgLArviAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+No credentials specified
+ > /usr/bin/git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/build_docker_image/.git # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/Dheerajecrc982/flaskapp.git # timeout=10
+Fetching upstream changes from https://github.com/Dheerajecrc982/flaskapp.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > /usr/bin/git fetch --tags --progress https://github.com/Dheerajecrc982/flaskapp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision c0ef8b0a075718a5757af8be750bdd8e2485914e (refs/remotes/origin/main)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f c0ef8b0a075718a5757af8be750bdd8e2485914e # timeout=10
+ > /usr/bin/git branch -a -v --no-abbrev # timeout=10
+ > /usr/bin/git branch -D main # timeout=10
+ > /usr/bin/git checkout -b main c0ef8b0a075718a5757af8be750bdd8e2485914e # timeout=10
+Commit message: "Rename deployment.yaml to deployment_definition.yaml"
+ > /usr/bin/git rev-list --no-walk c0ef8b0a075718a5757af8be750bdd8e2485914e # timeout=10
+[8mha:////4IKtdXOAiRFZ88lq3kU++QJ8LA0o187iCWEQlIzC34vfAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4OwDZcxpjpsiBYE5hv8CjRHmjBIhpYxvHJ2tSPz4lrfPAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4HvnAj7qrGWZQRCHQQe+44dWVLvt95VHnRqf8qbzz6tkAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4BcCUN1Hh5ZxeFE/btxnvX91vZ7Xq48ENvnTcfTfcKtEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Building app)
+[8mha:////4PdjxPgC2xiX0B/pBs9PTN5dcPcZd5sbkoJdSihyFxLpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] script
+[8mha:////4JSOerCBfP+l804QQUrnBaTOLX6kn0SSrPWTjwor9TPWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4NvU9kh7Hzh7nOYSYo+dtg+8J5khWznujiGjiIN0I/mpAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] isUnix
+[8mha:////4KJTrlsFM0Frjtx+KLK8fLdoWZS2HcwSPywM06IwMB/jAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDxaFw97CAAAA[0m[Pipeline] withEnv
+[8mha:////4KM3YqJjS336fjSLkEHNDz8/UF/p2bWvBKxfA/xYMRP+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] {
+[8mha:////4GCfsRtCKZTPph7Zn21I/vQaN3A0BRo1v1rLOWXQA0eqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ docker build -t simple_flaskapp .
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 233B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:alpine3.7
+#3 DONE 3.9s
+
+#4 [1/4] FROM docker.io/library/python:alpine3.7@sha256:35f6f83ab08f98c727dbefd53738e3b3174a48b4571ccb1910bae480dcdba847
+#4 resolve docker.io/library/python:alpine3.7@sha256:35f6f83ab08f98c727dbefd53738e3b3174a48b4571ccb1910bae480dcdba847 0.1s done
+#4 sha256:00be2573e9f79754b17954ba7a310a5f70c25b8f5bb78375e27e9e86d874877e 6.13kB / 6.13kB done
+#4 sha256:35f6f83ab08f98c727dbefd53738e3b3174a48b4571ccb1910bae480dcdba847 2.04kB / 2.04kB done
+#4 sha256:014f52b0e7ae4fcd43201bfa4c4e0320c8517b611d7daa0e41ba33a0cb1fab80 1.37kB / 1.37kB done
+#4 ...
+
+#5 [internal] load build context
+#5 transferring context: 33.28kB 0.3s done
+#5 DONE 0.4s
+
+#4 [1/4] FROM docker.io/library/python:alpine3.7@sha256:35f6f83ab08f98c727dbefd53738e3b3174a48b4571ccb1910bae480dcdba847
+#4 sha256:48ecbb6b270eb481cb6df2a5b0332de294ec729e1968e92d725f1329637ce01b 0B / 2.11MB 0.4s
+#4 sha256:692f29ee68fa6bab04aa6a1c6d8db0ad44e287e5ff5c7e1d5794c3aabc55884d 0B / 308.48kB 0.4s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 0B / 25.90MB 0.4s
+#4 sha256:48ecbb6b270eb481cb6df2a5b0332de294ec729e1968e92d725f1329637ce01b 2.10MB / 2.11MB 1.1s
+#4 sha256:692f29ee68fa6bab04aa6a1c6d8db0ad44e287e5ff5c7e1d5794c3aabc55884d 308.48kB / 308.48kB 0.9s done
+#4 sha256:3c7be240f7bfb19ec575d8547832a9f20b95eec9b4cc94fe717dd047ad661159 0B / 230B 1.1s
+#4 sha256:48ecbb6b270eb481cb6df2a5b0332de294ec729e1968e92d725f1329637ce01b 2.11MB / 2.11MB 1.1s done
+#4 extracting sha256:48ecbb6b270eb481cb6df2a5b0332de294ec729e1968e92d725f1329637ce01b
+#4 sha256:ca4b349df8ed83a59776df8f3868ece2783aa1ee2e9f052c9c9f3b54ae51a593 0B / 1.81MB 1.2s
+#4 extracting sha256:48ecbb6b270eb481cb6df2a5b0332de294ec729e1968e92d725f1329637ce01b 0.3s done
+#4 extracting sha256:692f29ee68fa6bab04aa6a1c6d8db0ad44e287e5ff5c7e1d5794c3aabc55884d
+#4 sha256:3c7be240f7bfb19ec575d8547832a9f20b95eec9b4cc94fe717dd047ad661159 230B / 230B 1.6s done
+#4 extracting sha256:692f29ee68fa6bab04aa6a1c6d8db0ad44e287e5ff5c7e1d5794c3aabc55884d 0.2s done
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 2.10MB / 25.90MB 1.9s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 4.19MB / 25.90MB 2.4s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 6.29MB / 25.90MB 3.3s
+#4 sha256:ca4b349df8ed83a59776df8f3868ece2783aa1ee2e9f052c9c9f3b54ae51a593 1.05MB / 1.81MB 3.3s
+#4 sha256:ca4b349df8ed83a59776df8f3868ece2783aa1ee2e9f052c9c9f3b54ae51a593 1.81MB / 1.81MB 3.4s
+#4 sha256:ca4b349df8ed83a59776df8f3868ece2783aa1ee2e9f052c9c9f3b54ae51a593 1.81MB / 1.81MB 3.4s done
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 8.39MB / 25.90MB 3.9s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 10.49MB / 25.90MB 4.4s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 12.58MB / 25.90MB 4.9s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 14.68MB / 25.90MB 5.4s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 16.78MB / 25.90MB 6.1s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 18.87MB / 25.90MB 6.5s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 20.97MB / 25.90MB 7.0s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 23.07MB / 25.90MB 7.6s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 25.17MB / 25.90MB 8.1s
+#4 sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 25.90MB / 25.90MB 8.7s done
+#4 extracting sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07
+#4 extracting sha256:6439819450d10d1aae92561f3ffff722137aada46d509644e8de4ca82bb26b07 3.8s done
+#4 extracting sha256:3c7be240f7bfb19ec575d8547832a9f20b95eec9b4cc94fe717dd047ad661159 done
+#4 extracting sha256:ca4b349df8ed83a59776df8f3868ece2783aa1ee2e9f052c9c9f3b54ae51a593
+#4 extracting sha256:ca4b349df8ed83a59776df8f3868ece2783aa1ee2e9f052c9c9f3b54ae51a593 0.3s done
+#4 DONE 13.7s
+
+#6 [2/4] COPY . /app
+#6 DONE 0.9s
+
+#7 [3/4] WORKDIR /app
+#7 DONE 0.6s
+
+#8 [4/4] RUN pip install -r requirements.txt
+#8 3.679 Collecting flask (from -r requirements.txt (line 1))
+#8 4.388   Downloading https://files.pythonhosted.org/packages/95/9c/a3542594ce4973786236a1b7b702b8ca81dbf40ea270f0f96284f0c27348/Flask-2.2.3-py3-none-any.whl (101kB)
+#8 4.480 Collecting Jinja2>=3.0 (from flask->-r requirements.txt (line 1))
+#8 4.615   Downloading https://files.pythonhosted.org/packages/bc/c3/f068337a370801f372f2f8f6bad74a5c140f6fda3d9de154052708dd3c65/Jinja2-3.1.2-py3-none-any.whl (133kB)
+#8 4.670 Collecting itsdangerous>=2.0 (from flask->-r requirements.txt (line 1))
+#8 4.777   Downloading https://files.pythonhosted.org/packages/68/5f/447e04e828f47465eeab35b5d408b7ebaaaee207f48b7136c5a7267a30ae/itsdangerous-2.1.2-py3-none-any.whl
+#8 4.791 Collecting Werkzeug>=2.2.2 (from flask->-r requirements.txt (line 1))
+#8 4.989   Downloading https://files.pythonhosted.org/packages/f6/f8/9da63c1617ae2a1dec2fbf6412f3a0cfe9d4ce029eccbda6e1e4258ca45f/Werkzeug-2.2.3-py3-none-any.whl (233kB)
+#8 5.045 Collecting importlib-metadata>=3.6.0; python_version < "3.10" (from flask->-r requirements.txt (line 1))
+#8 5.364   Downloading https://files.pythonhosted.org/packages/fb/1d/11424f62d6057539224541f69282c300f11ac3f7dde8a92294145af8ea7f/importlib_metadata-6.4.1-py3-none-any.whl
+#8 5.447 Collecting click>=8.0 (from flask->-r requirements.txt (line 1))
+#8 5.591   Downloading https://files.pythonhosted.org/packages/c2/f1/df59e28c642d583f7dacffb1e0965d0e00b218e0186d7858ac5233dce840/click-8.1.3-py3-none-any.whl (96kB)
+#8 5.621 Collecting MarkupSafe>=2.0 (from Jinja2>=3.0->flask->-r requirements.txt (line 1))
+#8 6.122   Downloading https://files.pythonhosted.org/packages/95/7e/68018b70268fb4a2a605e2be44ab7b4dd7ce7808adae6c5ef32e34f4b55a/MarkupSafe-2.1.2.tar.gz
+#8 7.107 Collecting zipp>=0.5 (from importlib-metadata>=3.6.0; python_version < "3.10"->flask->-r requirements.txt (line 1))
+#8 7.266   Downloading https://files.pythonhosted.org/packages/5b/fa/c9e82bbe1af6266adf08afb563905eb87cab83fde00a0a08963510621047/zipp-3.15.0-py3-none-any.whl
+#8 7.338 Collecting typing-extensions>=3.6.4; python_version < "3.8" (from importlib-metadata>=3.6.0; python_version < "3.10"->flask->-r requirements.txt (line 1))
+#8 7.444   Downloading https://files.pythonhosted.org/packages/31/25/5abcd82372d3d4a3932e1fa8c3dbf9efac10cc7c0d16e78467460571b404/typing_extensions-4.5.0-py3-none-any.whl
+#8 7.455 Building wheels for collected packages: MarkupSafe
+#8 7.455   Building wheel for MarkupSafe (setup.py): started
+#8 8.134   Building wheel for MarkupSafe (setup.py): finished with status 'done'
+#8 8.134   Stored in directory: /root/.cache/pip/wheels/2e/3d/d9/dfabde9070260e54a53662be67d9339052571601a573a36f2b
+#8 8.145 Successfully built MarkupSafe
+#8 8.338 Installing collected packages: MarkupSafe, Jinja2, itsdangerous, Werkzeug, zipp, typing-extensions, importlib-metadata, click, flask
+#8 9.349 Successfully installed Jinja2-3.1.2 MarkupSafe-2.1.2 Werkzeug-2.2.3 click-8.1.3 flask-2.2.3 importlib-metadata-6.4.1 itsdangerous-2.1.2 typing-extensions-4.5.0 zipp-3.15.0
+#8 9.722 You are using pip version 19.0.1, however version 23.1 is available.
+#8 9.722 You should consider upgrading via the 'pip install --upgrade pip' command.
+#8 DONE 10.7s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 0.4s done
+#9 writing image sha256:cc0085fd5356994b320cb6824cc427edec859f95dc39ffd954b60355a7cf3530 done
+#9 naming to docker.io/library/simple_flaskapp done
+#9 DONE 0.4s
+[8mha:////4Plr87p1MwQGc7AaIvBPuD9TxrC+49jJ3MlumBNlQbQDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
+[8mha:////4FfM5owKrO1qvEkwooCs2L2rQO0LgnFc9KjpUZ4W0iptAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4CarOtKqmg5ZDvqEjA5EMMZTgOWNZ5kTLRblrFxlDKyfAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPp7sC76+AAAA[0m[Pipeline] }
+[8mha:////4JxYX7BfYZc5tIRz8IN7BDN8KygHdGRLi9+4KnIOqeI3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZ1rrr5AK0PUAK+AAAA[0m[Pipeline] // script
+[8mha:////4Pc7NOk7171ufSWxVkm0R4jhet44VLAtQHIKPxezLsyRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZNrrr+ALkszR2+AAAA[0m[Pipeline] }
+[8mha:////4N9zKDc9YyWxwBrAfkOQfP0MA2+P8rrbgp1rE+5XwLvkAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP4rPlqG+AAAA[0m[Pipeline] // stage
+[8mha:////4FG2ijoqrj+TKzxTJPx3TMWZXV5mIYm+YiLt80vN8HQkAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwA6/9Rob0AAAA=[0m[Pipeline] }
+[8mha:////4JMOdkGDOEQxcR9RN4HctfNvH1KBh2/ue+xLOBroyIImAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+ENVAr0AAAA=[0m[Pipeline] // node
+[8mha:////4Etj9HPw+PIEqSWC1lIq5fhWsS5aNldt7fwJ1gYJoaNnAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHvgnyMr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
